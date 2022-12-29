@@ -8,7 +8,7 @@ import { addonWaline } from 'valaxy-addon-waline/node'
  */
 const config: UserConfig<ThemeUserConfig> = {
   lang: 'zh-CN',
-  title: '山岸逢秋',
+  title: '山岸逢秋...',
   author: {
     name: '深秋',
     avatar: '/image/avatar.webp',
