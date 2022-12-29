@@ -18,7 +18,7 @@ node应该算是全栈的敲门砖吧,在往全栈的大路上又前进了一步
 >
 > node可以导入核心模块,自定义模块,第三方模块
 
-```node.js
+```js
 #导入方法
 const fs = require('fs')
 
@@ -35,7 +35,7 @@ const express = require('express')
 
 ## npm
 
-```npm
+```powershell
 #npm环境配置 (文件夹名称不能是中文或者特殊字符)
 npm init --yes
 
@@ -52,7 +52,7 @@ npm install -g nrm //全局下载
 
 express是一个简洁,灵活的node.js的web应用开发框架,本身由一个路由和无数个中间件组成
 
-```node
+```js
 #开启一个服务器的三条代码
 const express = require('express')
 const server = express()
@@ -74,7 +74,7 @@ const isok = function(req,res,next){
 
 在express中,内置了一个托管静态页面的功能,如下;
 
-```node
+```js
 #导包
 const express = require('express')
 const server = express()
@@ -92,7 +92,7 @@ server.listen(8001,()=>{
 
 **路由配置**
 
-```node
+```js
 #导包
 const express = require('express')
 //这个就是自带的路由方法
@@ -111,7 +111,7 @@ module.exports = Router
 
 **路由调用**
 
-```node
+```js
 #导包
 const express = require('express')
 const Router = require('./路由配置文件名')
@@ -132,7 +132,7 @@ server.listen(8001,()=>{
 
 而在express框架中,跨域的解决过于冗长,灵活性也不太够,所以借用cors包来解决跨域问题是极为方便的方式
 
-```node
+```js
 #导包
 const express = require('express')
 const cors = require('cors')

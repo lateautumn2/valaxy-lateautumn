@@ -20,7 +20,7 @@ MVVM的设计模式,通过数据驱动视图改变,通过vue内部源码操作Do
 >
 > vue create vuecli-demo 创建一个vue项目
 
-```cmd
+```
 //定位至创建的文件夹
 cd vuecli-demo
 //开启项目服务器
@@ -29,7 +29,7 @@ npm run serve
 
 ### @vue/cli 脚手架目录
 
-```cmd
+```
  vuecil-demo        # 项目目录
     ├── node_modules # 项目依赖的第三方包
     ├── public       # 静态文件目录
@@ -51,7 +51,7 @@ npm run serve
 
 #### 主要文件及功能
 
-```js
+```javascript
 node_modules       //下载的第三方包
 public/index.html  //浏览器运行的网页
 src/main.js        //webpack打包的入口文件
@@ -61,7 +61,7 @@ package.json       //依赖包列表文件
 
 若要在脚手架中配置自定义配置,则需在src同级目录下添加vue.config.js文件,基础配置如下;
 
-```node
+```js
 module.exports = {
 lintOnSave:false,  //关闭代码检查工具=>eslint组件
 devServer:{
@@ -136,7 +136,7 @@ method:{
      * v-on:事件名="methods中的函数(实参)" 
      
    * 简写
-    
+   
      * @事件名="methods中的函数"
      
      ```vue
@@ -205,7 +205,7 @@ method:{
    * 语法:
      * @keyup.enter  -  监测回车按键
      * @keyup.esc     -   监测返回按键
-    
+   
      ```vue
      <template>
        <div>
@@ -311,7 +311,7 @@ method:{
    * 语法:
      * v-text="vue数据变量"    
      * v-html="vue数据变量"
-    
+   
      ```vue
      <template>
        <div>
