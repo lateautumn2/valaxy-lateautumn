@@ -18,6 +18,7 @@ const config: UserConfig<ThemeUserConfig> = {
       message: '正在努力学习中',
     }
   },
+  subtitle:'人间忽晚,山河已秋',
   description: '偷得浮生半日闲',
   url:"https://lateautumn.cn",
   social: [
@@ -79,12 +80,6 @@ const config: UserConfig<ThemeUserConfig> = {
         url: '/englisten/',
         icon: 'i-ri-customer-service-line',
         color: '#F293B0',
-      },
-      {
-        name: 'Baidu-light-33主题',
-        url: '/posts/baidu-light/',
-        icon: 'i-ri-baidu-line',
-        color: '#13c2c2',
       },
     ],
 
