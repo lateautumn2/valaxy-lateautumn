@@ -1,0 +1,19 @@
+{
+  "name": "copur-valaxy",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg && npm run rss",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "patch-package": "^6.5.0",
+    "valaxy": "0.11.6",
+    "valaxy-addon-waline": "^0.0.6",
+    "valaxy-theme-yun": "0.11.6"
+  }
+}
