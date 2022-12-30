@@ -1,7 +1,8 @@
 ---
 title: vue
 date: 2021-08-29 09:35:14
-tags: vue
+tags: 
+  - vue
 ---
 
 vue是一个渐进式javascript框架,更快的处理速度,更省时间的代码工程
@@ -10,7 +11,7 @@ MVVM的设计模式,通过数据驱动视图改变,通过vue内部源码操作Do
 
 ----08.29  am
 
-<!--more-->
+<!-- more -->
 
 ## vue环境配置
 

@@ -1,12 +1,13 @@
 ---
 title: 好久不见
 date: 2022-05-28 14:13:36
-tags: record
+tags: 
+    - record
 ---
 
 <center><b><font size=6>后来烟雨落盛京,一人撑伞两人行</font></b></center>
 
-<!--more-->
+<!-- more -->
 
 <br>
 

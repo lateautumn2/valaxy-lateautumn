@@ -11,7 +11,7 @@ const config: UserConfig<ThemeUserConfig> = {
   title: '山岸逢秋...',
   author: {
     name: '深秋',
-    avatar: '/image/avatar.webp',
+    avatar: '/image/avator.jpg',
     email: 'yeluoqiushen@qq.com',
     status: {
       emoji: '🌱',
@@ -55,13 +55,16 @@ const config: UserConfig<ThemeUserConfig> = {
       indexName: 'blog_copur',
     },
   },
-
+  sponsor:{
+    enable:false
+  },
   theme: 'yun',
 
   themeConfig: {
     bg_image: {
       enable: true,
-      url: '/image/wallhaven.webp',
+      dark: '/image/dark.jpg',
+      url: '/image/auto.jpg',
     },
     banner: {
       enable: true,
@@ -74,12 +77,6 @@ const config: UserConfig<ThemeUserConfig> = {
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
-      },
-      {
-        name: '英语听力解析',
-        url: '/englisten/',
-        icon: 'i-ri-customer-service-line',
-        color: '#F293B0',
       },
     ],
 

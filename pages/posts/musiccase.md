@@ -1,7 +1,9 @@
 ---
 title: 杂记
 date: 2021-08-30 15:13:36
-tags: [Aplayer,edit]
+tags: 
+    - Aplayer
+    - edit
 ---
 
 去年今日此门中
@@ -9,7 +11,7 @@ tags: [Aplayer,edit]
 人面不知何处去
 桃花依旧笑春风
 
-<!--more-->
+<!-- more -->
 
  ## 关于本博客框架
 
