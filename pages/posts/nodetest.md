@@ -1,6 +1,7 @@
 ---
 title: node
 date: 2021-08-20 20:34:23
+categories: 笔记
 tags: 
      - node.js
 ---

@@ -1,6 +1,7 @@
 ---
-title: gitknow
+title: git
 date: 2021-08-16 19:57:15
+categories: 笔记
 tags: 
     - git
 ---

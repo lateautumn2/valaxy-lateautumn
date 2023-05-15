@@ -1,6 +1,7 @@
 ---
 title: vue
 date: 2021-08-29 09:35:14
+categories: 笔记
 tags: 
   - vue
 ---

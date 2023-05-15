@@ -3,6 +3,7 @@
 layout: 
 title: vue组件
 date: 2021-09-04 20:35:59
+categories: 笔记 
 tags: 
   - vue
 ---

@@ -3,17 +3,18 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
+    "build": "npm run build:ssg && npm run rss && npm run fuse",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "patch-package": "^6.5.1",
-    "valaxy": "0.12.4",
-    "valaxy-addon-waline": "^0.0.7",
-    "valaxy-theme-yun": "0.12.4"
+    "patch-package": "^7.0.0",
+    "valaxy": "0.14.28",
+    "valaxy-addon-waline": "^0.1.0",
+    "valaxy-theme-yun": "0.14.28"
   }
 }

@@ -5,7 +5,7 @@ tags:
     - record
 ---
 
-<center><b><font size=6>后来烟雨落盛京,一人撑伞两人行</font></b></center>
+$$后来烟雨落盛京,一人撑伞两人行$$
 
 <!-- more -->
 
