@@ -1,4 +1,8 @@
 // you can custom css here
 :root{
-    --va-c-bg-light: rgba(255,255,255,0.5)
+    --va-c-bg-light: rgba(255,255,255,0.5);
+   
+}
+html.dark{
+    --va-c-bg-light: rgba(0, 0, 0, 0.5)
 }

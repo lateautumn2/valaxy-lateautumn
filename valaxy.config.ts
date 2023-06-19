@@ -1,6 +1,6 @@
 import {defineValaxyConfig} from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { addonWaline } from 'valaxy-addon-waline/node'
+import { addonWaline } from 'valaxy-addon-waline'
 
 /**
  * User Config
@@ -43,7 +43,8 @@ export default defineValaxyConfig<UserThemeConfig>  ({
   },
   addons: [
     addonWaline({
-      serverURL: 'https://waline.yunyoujun.cn',
+      serverURL: 'https://waline.lateautumn.cn',
+      comment:true
     }),
   ],
   unocss: {

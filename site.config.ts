@@ -55,8 +55,9 @@ lang: 'zh-CN',
   sponsor:{
     enable:false
   },
+  //开启评论
   comment: {
-    enable:false,
+    enable:true,
   },
   statistics: {
     enable: true,
