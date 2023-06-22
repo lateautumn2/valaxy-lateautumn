@@ -6,3 +6,11 @@
 html.dark{
     --va-c-bg-light: rgba(0, 0, 0, 0.5)
 }
+
+
+.yun-post-list .yun-card{
+    border-radius: 6px;
+    &:hover{
+        transform: translate(6px,-6px)
+    }
+}
