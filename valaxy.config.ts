@@ -19,7 +19,10 @@ export default defineValaxyConfig<UserThemeConfig>  ({
       enable: true,
       title: '山岸逢秋',
     },
-
+    say: {
+      enable: true,
+      api: "/poetry.json",
+    },
     pages: [
       {
         name: '我的小伙伴们',
