@@ -4,7 +4,7 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
 
 lang: 'zh-CN',
-  title: '山岸逢秋...',
+  title: '深秋\'s blog',
   author: {
     name: '深秋',
     avatar: '/image/avator.jpg',
