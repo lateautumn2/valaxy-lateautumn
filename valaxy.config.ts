@@ -47,7 +47,8 @@ export default defineValaxyConfig<UserThemeConfig>  ({
   addons: [
     addonWaline({
       serverURL: 'https://waline.lateautumn.cn',
-      comment:true
+      comment:true,
+      pageview:true
     }),
   ],
   unocss: {
