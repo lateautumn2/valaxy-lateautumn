@@ -37,7 +37,7 @@ export default defineValaxyConfig<UserThemeConfig>  ({
         color: '#43abee',
       },
       {
-        name: '友链',
+        name: '友邻',
         url: '/links/',
         icon: 'i-ri-open-arm-line',
         color: '#4bbea4',

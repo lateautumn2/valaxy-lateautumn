@@ -1,7 +1,8 @@
 ---
-title: 我的小伙伴们
+title: 友邻
 keywords: 链接
-description: 云游的小伙伴们
+description: 深秋的友邻
+aside: false
 links: [
   {
     "url": "https://www.yunyoujun.cn/",
@@ -35,7 +36,10 @@ links: [
     "desc": "写代码是热爱，写到世界充满爱！",
     "color": "#f29c38"
   },
-  {
+ 
+]
+links2: [
+    {
     "url": "https://yuumi.link",
     "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
     "name": "Yuumi",
@@ -44,10 +48,17 @@ links: [
     "color": "#D69B54"
   }
 ]
+
 random: true
 ---
 
+
+## 小伙伴们
+<YunLinks :links="frontmatter.links2" :random="frontmatter.random" />
+
+## 大佬们
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+
 
 # 友链说明
 
