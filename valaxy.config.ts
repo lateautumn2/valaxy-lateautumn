@@ -25,10 +25,22 @@ export default defineValaxyConfig<UserThemeConfig>  ({
     },
     pages: [
       {
-        name: '我的小伙伴们',
+        name: '留言板',
+        url: '/comment/',
+        icon: 'i-ri-clipboard-line',
+        color: '#737de5',
+      },
+      {
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-gallery-line',
+        color: '#43abee',
+      },
+      {
+        name: '友链',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
+        icon: 'i-ri-open-arm-line',
+        color: '#4bbea4',
       },
     ],
 

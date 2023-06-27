@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 import {ref} from "vue"
+import { useScriptTag } from '@vueuse/core'
+useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
 
 const startTime = ref('2021/08/08 18:08:08')
 const day = ref(0)
@@ -29,6 +31,8 @@ setInterval(()=>{
 <template>
     <div>
         <YunFooter>
+            <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
+            <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人</div>
             本博客已经运行 {{ day }} 天 {{ hour }} 小时 {{ min }} 分钟 {{ second }} 秒(●'◡'●)
         </YunFooter>
     </div>

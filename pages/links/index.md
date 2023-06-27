@@ -48,3 +48,18 @@ random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+
+# 友链说明
+
+友链为随机顺序展示，希望交换友链的话可以按此格式在评论区留下信息：
+
+```json
+{
+"url": "https://www.lateautumn.cn",
+"avatar": "https://www.lateautumn.cn/image/avator.jpg",
+"name": "深秋",
+"blog": "深秋’s blog",
+"desc": "人间忽晚，山河已秋",
+"color": "skyblue"
+}
+```
