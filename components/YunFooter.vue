@@ -31,8 +31,8 @@ setInterval(()=>{
 <template>
     <div>
         <YunFooter>
-            <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
-            <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人</div>
+            <div>陌生人，你会成为这 <span id="busuanzi_value_site_pv" />次的一份子吗？</div>
+            <div>茫茫人海已经遇见了 <span id="busuanzi_value_site_uv" /> 人啦！</div>
             本博客已经运行 {{ day }} 天 {{ hour }} 小时 {{ min }} 分钟 {{ second }} 秒(●'◡'●)
         </YunFooter>
     </div>

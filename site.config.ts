@@ -15,7 +15,7 @@ lang: 'zh-CN',
     }
   },
   subtitle:'人间忽晚,山河已秋',
-  description: '偷得浮生半日闲',
+  description: '',
   url:"https://lateautumn.cn",
   social: [
     {
