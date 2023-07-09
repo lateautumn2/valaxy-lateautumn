@@ -1,6 +1,7 @@
 ---
 title: 2021的总结
-date: 2022-01-01 00:34:10
+date: 2022-01-01
+updated: 2022-01-29
 categories:
   - 年终总结
 tags: 

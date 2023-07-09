@@ -1,6 +1,7 @@
 ---
 title: git
-date: 2021-08-16 19:57:15
+date: 2021-08-16
+updated: 2021-08-16
 categories: 笔记
 tags: 
     - git

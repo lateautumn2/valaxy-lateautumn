@@ -1,6 +1,7 @@
 ---
 title: webpack打包优化
-date: 2021-09-23 09:26:09
+date: 2021-09-23
+updated: 2021-09-23
 categories: 笔记
 tags: 
   - webapck

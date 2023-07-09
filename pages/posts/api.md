@@ -2,7 +2,8 @@
 
 layout: 
 title: vue组件
-date: 2021-09-04 20:35:59
+date: 2021-09-04
+updated: 2021-09-04
 categories: 笔记 
 tags: 
   - vue
