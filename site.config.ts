@@ -44,13 +44,8 @@ lang: 'zh-CN',
     },
   ],
   search: {
-      enable: false,
-      type:'fuse'
-    // algolia: {
-    //   appId: 'OBFL1UV9UY',
-    //   apiKey: '0ca2cf85480e296dd1353447bc6b2ba6',
-    //   indexName: 'blog_copur',
-    // },
+    enable: true,
+    type: 'fuse',
   },
   sponsor:{
     enable:false
