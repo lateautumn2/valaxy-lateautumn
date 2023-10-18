@@ -227,5 +227,5 @@ iptables -t nat -D PREROUTING 1
 
 >  V2rayN
 
-![image](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230626/6220048.5exqr3acd3k0.webp)
+![image](https://lateautumn02.com/cdn/20230626/6220048.5exqr3acd3k0.webp)
 

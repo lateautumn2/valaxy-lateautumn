@@ -37,7 +37,7 @@ TeamSpeak还提供了一些管理工具，允许服务器管理员设置访问�
 - 一个ssh工具，这里我使用的是[FinalShell](https://www.hostbuf.com/t/988.html)
 
 首先，下载，打开teamspeak的官网，点击Downloads，客户端选择client下载，服务端选择server下载，对应版本不再赘述，请选择对应自己系统的版本。
-![teamspeakDownload](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.4c8ywvigm2w0.webp)
+![teamspeakDownload](https://lateautumn02.com/cdn/20230725/image.4c8ywvigm2w0.webp)
 
 ## 三、配置服务端
 
@@ -60,7 +60,7 @@ passwd teamspeakUser
 
 接下来，解压之前下载好的文件，最好是重命名下文件，如teamspeak3，以下就是解压完后的文件
 
-![file](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.38xjsh6c69m0.webp)
+![file](https://lateautumn02.com/cdn/20230725/image.38xjsh6c69m0.webp)
 
 然后，使用FinalShell将其上传至/home/teamspeakUser/目录下，因为我们是需要teamspeakUser用户来运行它的，所以需要给它设置权限，将文件所属权归属到teamspeakUser用户下
 
@@ -90,7 +90,7 @@ chmod +x ts3server_startscript.sh
 
 运行之后，你可以看到这样一串信息，那么恭喜你，服务端运行成功了
 
-![success](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.5ehasd13e400.webp)
+![success](https://lateautumn02.com/cdn/20230725/image.5ehasd13e400.webp)
 
 将以上loginname，password,apikey,token复制下来备用，之后Ctrl+c就可以终止服务了
 
@@ -146,7 +146,7 @@ WorkingDirectory，ExecStart，ExecStop，PIDFile为你的服务端文件的绝�
 之后保存，reboot即可
 文件编辑完后，先别急着systemctl start teamspeak3,因为你可能会提示缺少对应的配置文件
 
-![error](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.6m6nm5n51lc0.webp)
+![error](https://lateautumn02.com/cdn/20230725/image.6m6nm5n51lc0.webp)
 
 
 所以，你还需要完成以下步骤，
@@ -159,7 +159,7 @@ cd /home/teamspeakUser/teamspeak3
 
 当出现如下信息时，说明配置文件已经生成
 
-![info](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.7i1nvgv2i4c0.webp)
+![info](https://lateautumn02.com/cdn/20230725/image.7i1nvgv2i4c0.webp)
 
 此时Ctrl+c退出，重新回到root，再次启动teamspeak3，并查看状态
 
@@ -174,7 +174,7 @@ systemctl status teamspeak3
 systemctl stop teamspeak3
 ```
 
-![success](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.7d76np8rgeo0.webp)
+![success](https://lateautumn02.com/cdn/20230725/image.7d76np8rgeo0.webp)
 
 好了，大功告成，服务开启成功
 
@@ -197,7 +197,7 @@ su teamspeakUser
 
 2. 当你想要使用`./ts3server_minimal_runscript.sh createinifile=1`为teamspeak创建配置文件时，提示一大片的error，如下
 
-![error](https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230725/image.2nr55a8o65w0.webp)
+![error](https://lateautumn02.com/cdn/20230725/image.2nr55a8o65w0.webp)
 
 解决办法：请切换回root用户运行生成配置文件命令，或者在当前身份下使用sudo
 

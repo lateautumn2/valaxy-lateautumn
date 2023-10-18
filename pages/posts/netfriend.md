@@ -6,7 +6,7 @@ categories:
 - 浮生小记
 tags:
 - 杂记
-cover: https://cdn.staticaly.com/gh/lateautumn2/picx-images-hosting@master/20230708/壁纸-(4).42wtajcpvm60.webp
+cover: https://lateautumn02.com/cdn/20230708/壁纸-(4).42wtajcpvm60.webp
 ---
 
 > 记网络世界熟悉的陌生人
