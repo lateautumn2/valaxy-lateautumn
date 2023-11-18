@@ -8,7 +8,7 @@ lang: 'zh-CN',
   author: {
     name: '深秋',
     avatar: '/image/avator.jpg',
-    email: 'yeluoqiushen@qq.com',
+    email: 'lateautumn02@gmail.com',
     status: {
       emoji: '🌱',
       message: '正在努力学习中',
@@ -32,7 +32,7 @@ lang: 'zh-CN',
     },
     {
       name: 'E-Mail',
-      link: 'mailto:yeluoqiushen@qq.com',
+      link: 'mailto:lateautumn02@gmail.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
