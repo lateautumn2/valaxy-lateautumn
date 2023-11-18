@@ -12,9 +12,9 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
-    "patch-package": "^7.0.0",
-    "valaxy": "0.14.36",
-    "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "0.14.36"
+    "patch-package": "^8.0.0",
+    "valaxy": "0.15.14",
+    "valaxy-addon-waline": "^0.1.1",
+    "valaxy-theme-yun": "0.15.14"
   }
 }
