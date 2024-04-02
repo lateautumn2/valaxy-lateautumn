@@ -58,7 +58,7 @@ export default defineValaxyConfig<UserThemeConfig>  ({
   },
   addons: [
     addonWaline({
-      serverURL: 'https://waline.lateautumn.cn',
+      serverURL: 'https://waline.shenqiu.me',
       comment:true,
       pageview:true
     }),

@@ -23,8 +23,8 @@ random: true
 
 ```json
 {
-"url": "https://www.lateautumn.cn",
-"avatar": "https://www.lateautumn.cn/image/avator.jpg",
+"url": "https://shenqiu.me",
+"avatar": "https://shenqiu.me/image/avator.jpg",
 "name": "深秋",
 "blog": "深秋’s blog",
 "desc": "人间忽晚，山河已秋",

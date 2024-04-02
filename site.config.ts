@@ -16,7 +16,7 @@ lang: 'zh-CN',
   },
   subtitle:'人间忽晚,山河已秋',
   description: '',
-  url:"https://lateautumn.cn",
+  url:"https://shenqiu.me",
   social: [
     {
       name: 'RSS',
