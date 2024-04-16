@@ -14,5 +14,13 @@
     "blog": "Pantheon",
     "desc": "这个人什么也没说",
     "color": "#c63B54"
+  },
+  {
+    "url": "https://blog.foxsir.me",
+    "avatar": "https://photo.foxsir.me/images/2024/03/04/sV3.webp",
+    "name": "Foxsir",
+    "blog": "Foxsir's Blog",
+    "desc": "Hi, just a normal guy in here.",
+    "color": "bush"
   }
 ]
