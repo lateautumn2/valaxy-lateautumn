@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "patch-package": "^8.0.0",
-    "valaxy": "0.15.14",
-    "valaxy-addon-waline": "^0.1.1",
-    "valaxy-theme-yun": "0.15.14"
+    "valaxy": "0.18.5",
+    "valaxy-addon-waline": "^0.1.2",
+    "valaxy-theme-yun": "0.18.5"
   }
 }
