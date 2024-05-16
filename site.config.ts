@@ -31,6 +31,12 @@ lang: 'zh-CN',
       color: '#6e5494',
     },
     {
+      name: 'Fleet',
+      link: 'https://m.shenqiu.me',
+      icon: 'i-ri-chat-smile-2-line',
+      color: '#41F500',
+    },
+    {
       name: 'E-Mail',
       link: 'mailto:lateautumn02@gmail.com',
       icon: 'i-ri-mail-line',
