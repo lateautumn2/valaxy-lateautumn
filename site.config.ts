@@ -37,6 +37,12 @@ lang: 'zh-CN',
       color: '#41F500',
     },
     {
+      name: 'Discussion',
+      link: 'https://akii.cc',
+      icon: 'i-ri-discuss-line',
+      color: 'skyblue',
+    },
+    {
       name: 'E-Mail',
       link: 'mailto:lateautumn02@gmail.com',
       icon: 'i-ri-mail-line',

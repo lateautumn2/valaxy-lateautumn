@@ -12,8 +12,8 @@ export default defineValaxyConfig<UserThemeConfig>  ({
   themeConfig: {
     bg_image: {
       enable: true,
-      dark: 'https://lateautumn02.com/cdn/20230716/dark.59e96kkjbd40.webp',
-      url: 'https://lateautumn02.com/cdn/20230716/auto.3hciufodioe0.webp',
+      dark: '/image/dark.jpg',
+      url:  '/image/auto.jpg',
     },
     banner: {
       enable: true,
