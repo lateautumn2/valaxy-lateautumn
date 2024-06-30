@@ -60,7 +60,7 @@ tags:
       "streamSettings": {
         "network": "tcp",
         "security": "reality",
-        "realitySettings": {  
+        "realitySettings": {
           "dest": "itunes.apple.com:443",//需要偷取伪装站的域名
           "serverNames": ["itunes.apple.com"],//客户端可用的 serverName 列表
           "privateKey": "xrayx25519xrayx25519xrayx25519xrayx25519",//xray x25519命令生成公钥私钥
@@ -138,9 +138,9 @@ tags:
 ~~~javascript
 > 域名
 
-- gateway.icloud.com 
+- gateway.icloud.com
 - itunes.apple.com
-- download-installer.cdn.mozilla.net 
+- download-installer.cdn.mozilla.net
 - addons.mozilla.org
 - www.microsoft.com
 - www.lovelive-anime.jp
@@ -148,7 +148,7 @@ tags:
 > CDN
 
 - swdist.apple.com
-- swcdn.apple.com 
+- swcdn.apple.com
 - updates.cdn-apple.com
 - mensura.cdn-apple.com
 - osxapps.itunes.apple.com
@@ -157,7 +157,7 @@ tags:
 - update.microsoft
 - software.download.prss.microsoft.com
 - s0.awsstatic.com
-- d1.awsstatic.com 
+- d1.awsstatic.com
 - images-na.ssl-images-amazon.com
 - m.media-amazon.com
 - player.live-video.net
@@ -227,5 +227,4 @@ iptables -t nat -D PREROUTING 1
 
 >  V2rayN
 
-![image](https://lateautumn02.com/cdn/20230626/6220048.5exqr3acd3k0.webp)
-
+![image](https://pic.0v0.day/file/stroage/2024/06/30/gxlguml3wx.png)
